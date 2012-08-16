@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0BCED015DB8FC800522B8B /* PullCurtainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0BCECF15DB8FC800522B8B /* PullCurtainView.m */; };
+		AD0BCED415DB956000522B8B /* PullFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0BCED315DB956000522B8B /* PullFlag.m */; };
 		AD23366A15DA275300EB71F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23366915DA275300EB71F8 /* UIKit.framework */; };
 		AD23366C15DA275300EB71F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23366B15DA275300EB71F8 /* Foundation.framework */; };
 		AD23366E15DA275300EB71F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23366D15DA275300EB71F8 /* CoreGraphics.framework */; };
 		AD23367415DA275300EB71F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD23367215DA275300EB71F8 /* InfoPlist.strings */; };
 		AD23367615DA275300EB71F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23367515DA275300EB71F8 /* main.m */; };
 		AD23367A15DA275300EB71F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23367915DA275300EB71F8 /* AppDelegate.m */; };
+		AD23368315DA277F00EB71F8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23368115DA277F00EB71F8 /* MainViewController.m */; };
+		AD23368415DA277F00EB71F8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD23368215DA277F00EB71F8 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0BCECE15DB8FC800522B8B /* PullCurtainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullCurtainView.h; sourceTree = "<group>"; };
+		AD0BCECF15DB8FC800522B8B /* PullCurtainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullCurtainView.m; sourceTree = "<group>"; };
+		AD0BCED215DB956000522B8B /* PullFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullFlag.h; sourceTree = "<group>"; };
+		AD0BCED315DB956000522B8B /* PullFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullFlag.m; sourceTree = "<group>"; };
 		AD23366515DA275300EB71F8 /* PullCurtain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullCurtain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD23366915DA275300EB71F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AD23366B15DA275300EB71F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,6 +34,9 @@
 		AD23367715DA275300EB71F8 /* PullCurtain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullCurtain-Prefix.pch"; sourceTree = "<group>"; };
 		AD23367815DA275300EB71F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD23367915DA275300EB71F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD23368015DA277F00EB71F8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AD23368115DA277F00EB71F8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AD23368215DA277F00EB71F8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,13 @@
 			children = (
 				AD23367815DA275300EB71F8 /* AppDelegate.h */,
 				AD23367915DA275300EB71F8 /* AppDelegate.m */,
+				AD23368015DA277F00EB71F8 /* MainViewController.h */,
+				AD23368115DA277F00EB71F8 /* MainViewController.m */,
+				AD23368215DA277F00EB71F8 /* MainViewController.xib */,
+				AD0BCECE15DB8FC800522B8B /* PullCurtainView.h */,
+				AD0BCECF15DB8FC800522B8B /* PullCurtainView.m */,
+				AD0BCED215DB956000522B8B /* PullFlag.h */,
+				AD0BCED315DB956000522B8B /* PullFlag.m */,
 				AD23367015DA275300EB71F8 /* Supporting Files */,
 			);
 			path = PullCurtain;
@@ -142,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD23367415DA275300EB71F8 /* InfoPlist.strings in Resources */,
+				AD23368415DA277F00EB71F8 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +173,9 @@
 			files = (
 				AD23367615DA275300EB71F8 /* main.m in Sources */,
 				AD23367A15DA275300EB71F8 /* AppDelegate.m in Sources */,
+				AD23368315DA277F00EB71F8 /* MainViewController.m in Sources */,
+				AD0BCED015DB8FC800522B8B /* PullCurtainView.m in Sources */,
+				AD0BCED415DB956000522B8B /* PullFlag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +283,7 @@
 				AD23367F15DA275300EB71F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
