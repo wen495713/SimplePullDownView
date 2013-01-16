@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054D4B9416A64DF400692DC1 /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 054D4B9316A64DF400692DC1 /* Testing.m */; };
 		AD0BCED015DB8FC800522B8B /* PullCurtainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0BCECF15DB8FC800522B8B /* PullCurtainView.m */; };
 		AD0BCED415DB956000522B8B /* PullFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0BCED315DB956000522B8B /* PullFlag.m */; };
 		AD23366A15DA275300EB71F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23366915DA275300EB71F8 /* UIKit.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054D4B9216A64DF400692DC1 /* Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
+		054D4B9316A64DF400692DC1 /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
 		AD0BCECE15DB8FC800522B8B /* PullCurtainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullCurtainView.h; sourceTree = "<group>"; };
 		AD0BCECF15DB8FC800522B8B /* PullCurtainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullCurtainView.m; sourceTree = "<group>"; };
 		AD0BCED215DB956000522B8B /* PullFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullFlag.h; sourceTree = "<group>"; };
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054D4B9016A64DE300692DC1 /* testing */ = {
+			isa = PBXGroup;
+			children = (
+				054D4B9216A64DF400692DC1 /* Testing.h */,
+				054D4B9316A64DF400692DC1 /* Testing.m */,
+			);
+			name = testing;
+			sourceTree = "<group>";
+		};
 		AD23365A15DA275300EB71F8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 		AD23366F15DA275300EB71F8 /* PullCurtain */ = {
 			isa = PBXGroup;
 			children = (
+				054D4B9016A64DE300692DC1 /* testing */,
 				AD23367815DA275300EB71F8 /* AppDelegate.h */,
 				AD23367915DA275300EB71F8 /* AppDelegate.m */,
 				AD23368015DA277F00EB71F8 /* MainViewController.h */,
@@ -176,6 +189,7 @@
 				AD23368315DA277F00EB71F8 /* MainViewController.m in Sources */,
 				AD0BCED015DB8FC800522B8B /* PullCurtainView.m in Sources */,
 				AD0BCED415DB956000522B8B /* PullFlag.m in Sources */,
+				054D4B9416A64DF400692DC1 /* Testing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
