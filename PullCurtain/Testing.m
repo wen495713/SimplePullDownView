@@ -15,4 +15,8 @@
     NSLog(@"test");
 }
 
+- (void)someedit{
+    NSLog(@"someeidt");
+}
+
 @end
